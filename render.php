@@ -11,7 +11,7 @@ Class ScienceQARender
 	 */
 	public static function epfl_scienceqa_build_html( $scienceqa, $lang ): string
 	{
-		$html = '<div>';
+		$html = '<div class="container p-lg-5">';
 		$html .= '  <h3>' . esc_html__('Science Q&A', 'epfl-scienceqa') . '</h3>';
 		$html .= '  <div class="scienceqa-image">';
 		$html .= '    <img src="' . esc_url( $scienceqa->image ) . '">';
